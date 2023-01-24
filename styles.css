@@ -1,0 +1,105 @@
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0px;
+}
+
+nav ul li {
+    margin: 20px 20px;
+
+}
+
+nav ul a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+    height: 41.82px;
+
+}
+
+nav li.active a {
+    color: blue;
+}
+
+.contact-Box {
+    background-color: #F9F7FE;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-Box h4 {
+    font: Playfair Display;
+    color: #000000;
+}
+
+.contact-Box p {
+    font: Poppins;
+    color: #272142;
+    margin-bottom: 0px;
+}
+
+
+
+footer .mail-Link {
+
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.email a:hover {
+    color: blue;
+}
+
+footer .email {
+    font: Poopins;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+}
+
+footer .socail-Links a {
+    font-size: 18px;
+    background-color: #F9F7FE;
+    color: rgba(108, 99, 255, 1);
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0px 34px;
+}
+
+footer .socail-Links {
+    text-align: center;
+
+}
+
+.contact-Box h4 {
+    margin-top: 20px;
+    padding: 20px 50px;
+    text-align: left;
+    font: Playfair Display;
+    font-size: 45px;
+    line-height: 85.31px;
+    font-style: Bold;
+}
+
+@media (max-width>=375px) {
+    .some h1 {
+        font-size: 10px;
+    }
+
+    .some {
+        padding: 20px;
+        display: flex;
+        text-align: center;
+    }
+
+}
+
+.repo {
+    marigin: 20px;
+    text-align: center;
+}
